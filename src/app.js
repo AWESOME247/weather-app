@@ -6,7 +6,7 @@ const hbs = require('hbs');
 const forecast = require('./utill/forecast');
 const geoCoding = require('./utill/geoCoding');
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 const app = express();
 
