@@ -2,24 +2,23 @@
         margin: 0;
     }
     
-    body {
+    main {
         display: flex;
         flex-direction: column;
-        width: 650px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 650px;
+        justify-content: center;
         height: 100vh;
+        margin-right: auto;
+        margin-left: auto;
     }
     
-    main {
+    .main {
         flex-grow: 1;
         display: flex;
         flex-direction: column;
     }
     
     h1 {
-        font-size: 70px;
-        color: #000 !important;
         display: flex;
         flex-direction: column;
         padding-bottom: 2rem;
@@ -27,7 +26,6 @@
     
     h1,
     h3 {
-        color: #4FFBDF;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
@@ -64,9 +62,6 @@
     }
     
     p {
-        font-size: 30px;
-        color: #000;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
@@ -93,59 +88,8 @@
         text-align: end;
     }
     
-    form {
-        display: flex;
-        justify-content: center;
-        margin: 1rem 0;
-        align-items: center;
-    }
-    
-    input {
-        width: 80%;
-        height: 40px;
-        padding: 0 .7rem;
-        border: 1px solid#4FFBDF;
-        outline-color: #4FFBDF;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
-    }
-    
-    button {
-        color: white;
-        background-color: #4FFBDF;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        border: none;
-        height: 42px;
-        width: 100px;
-        padding: 1rem;
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-    
-    .container,
-    .container2 {
-        width: 90%;
-        border-radius: 5px;
-        font-size: 15px;
-        padding: .3rem;
-        margin: .7rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-    
     small {
-        color: #646564;
-        font-size: 15px;
-        margin: 0;
         padding-left: 1rem;
+        font-size: 15px !important;
+        color: #646564;
     }
